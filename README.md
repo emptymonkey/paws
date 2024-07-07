@@ -23,7 +23,7 @@ Current:
 
 Future:
 - Modularity: There's already some. Get it in line now so the onslaught of features is easy to pull in.
-- Document: I mean document _way_ more than usual. This is educational code, after all.
+- Document: I mean document _way_ more than usual. This is educational code, after all. Every file should feel like a topic pulled straight from TLPI.
 - Options: Add getopt() handling, as more features will start to necessitate different runtime logic.
 - Config: Add config file support allowing runs to differ
 - Coredump: Currently all signals are being caught, so add a SIGSEGV count (like SIGINT already has) where receiving it twice in a row triggers the coredump.
