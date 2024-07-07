@@ -38,8 +38,8 @@ Future:
 
 ## Use
 - Educational
-  - Process inspection
-  - Debugger practice
-  - Example of a full Makefile layout w/division of labor across different files
+  - Process inspection
+  - Debugger practice
+  - Example of a full Makefile layout w/division of labor across different files
 - Diagnostic target for malware
-- Library development driver
+- Library driver dev
