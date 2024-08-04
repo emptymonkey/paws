@@ -36,6 +36,19 @@ int main(void){
 
 	int retval, i;
 
+	/* XXX
+	
+		- Modularize _all_ _the_ _things_!
+		- Add a usage() module
+		- Add an getopt() module
+		- Add a mechanism to leave certain, configurable, signals alone. Ex: SIGRT32, used by valgrind
+			$ valgrind ./paws 2>&1 | grep -i sig
+			==24677== Warning: ignored attempt to set SIGRT32 handler in sigaction();
+			==24677==          the SIGRT32 signal is used internally by Valgrind
+			./paws: sigaction(64, 1fff000328, NULL): Invalid argument
+
+		 XXX */
+
 	// Setup the signal handling to catch all catchable signals.
 	struct sigaction act = {0};
 	sigset_t all_sigs;
