@@ -1,6 +1,14 @@
 
+#include "feature_test_macros.h"
 
-#include "paws.h"
+#include <errno.h>                                                                     
+#include <error.h>                                                                     
+#include <signal.h>
+#include <stdio.h>                                                                     
+#include <string.h>                                                                    
+#include <sys/resource.h>     
+#include <unistd.h>
+
 #include "sigmap.h"
 
 

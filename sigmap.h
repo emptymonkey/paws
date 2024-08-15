@@ -1,7 +1,7 @@
 
 // Prevent the header being included multiple times.
 #ifndef SIGMAP_H
-#define SIGMAP_H
+#define SIGMAP_H 1
 
 // Associates the signal number with its string name.
 struct sigmap_element {

@@ -1,6 +1,9 @@
 
+#include "feature_test_macros.h"
 
-#include "paws.h"
+#include <signal.h>
+#include <unistd.h>
+
 #include "sigmap.h"
 
 // A collection of all the signal number to name pairs. The order of entries is not important.
