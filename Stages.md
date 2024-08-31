@@ -4,6 +4,7 @@ This is a list of the different major steps / stages in the creation of paws.
 
 - "hello world": Setup the compilation environment.
 - pause: Setup the pause() loop and practice basic process inspection.
+- System Info: Query and dump system stats that may help the inspection process.
 - Basic terminal tests: Add in some strings: ascii, UTF-8, ANSI escape codes, C0/C1.  Bonus points for ASCII art, double bonus points if it's extra kawaii!
 - Signal handling:
   - Start with the basic signal handler and catch SIGUSR1 and SIGUSR2. Test and explore.
