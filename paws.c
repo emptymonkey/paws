@@ -47,13 +47,9 @@ int main(void){
 	/* XXX
 	
 		- Modularize _all_ _the_ _things_!
+		- Clean main, move the pause() loop to it's own file.
 		- Add a usage() module
 		- Add an getopt() module
-		- Add a mechanism to leave certain, configurable, signals alone. Ex: SIGRT32, used by valgrind
-			$ valgrind ./paws 2>&1 | grep -i sig
-			==24677== Warning: ignored attempt to set SIGRT32 handler in sigaction();
-			==24677==          the SIGRT32 signal is used internally by Valgrind
-			./paws: sigaction(64, 1fff000328, NULL): Invalid argument
    		- Add command string like: "open foo.txt; exec /bin/true;"
      		- Add commands instead of switches?
        		- Add an open command for file descriptor inspection
